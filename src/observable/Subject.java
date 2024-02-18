@@ -1,10 +1,11 @@
 package observable;
 
+import Observer.Observers;
 import Observer.Players;
 
 public interface Subject {
 
-    void registerObserver(String player);
-    void removeObserver(String player);
-    void notifyObserver(int numberGuessed);
+    void registerObserver(Observers player);
+    void removeObserver(Observers player);
+    void notifyObserver(int numberGuessed,String  name);
 }

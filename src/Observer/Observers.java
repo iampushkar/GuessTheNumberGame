@@ -2,5 +2,5 @@ package Observer;
 
 public interface Observers {
 
-    void update(int winningNumber,int guessedNumber);
+    void update(int winningNumber,int guessedNumber,String name);
 }
